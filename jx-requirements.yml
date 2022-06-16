@@ -15,12 +15,12 @@ spec:
     gitName: github
     gitServer: https://github.com
     provider: kubernetes
-    registry: ghcr.io
+    registry: docker.io
   environments:
   - key: dev
   - key: staging
   ingress:
-    domain: ""
+    domain: "x.tyy.asppj.top"
     externalDNS: false
     ignoreLoadBalancer: true
     kind: ingress
